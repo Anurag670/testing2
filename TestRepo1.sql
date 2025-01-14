@@ -2,7 +2,7 @@
  * ER/Studio Data Architect SQL Code Generation
  * Project :      RepoModel.DM1
  *
- * Date Created : Tuesday, January 14, 2025 19:05:48
+ * Date Created : Tuesday, January 14, 2025 19:10:50
  * Target DBMS : Google BigQuery
  */
 
@@ -16,7 +16,7 @@ CREATE TABLE Shail.Entity1(
     a3         STRING(10),
     Entity2    STRUCT<
         b1    STRING(10),
-        b2    STRING(10),
+        b2    INTEGER,
         b3    STRING(10)
     >,
     PRIMARY KEY (a1) NOT ENFORCED
